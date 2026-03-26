@@ -9,7 +9,7 @@
     "test:report": "playwright show-report"
   },
   "devDependencies": {
-    "@ndviet/adapter-playwright": "^1.0.0",
+    "@ndviet/adapter-playwright": "next",
     "@playwright/test": "^1.43.0",
     "typescript": "^5.4.0"
   }
