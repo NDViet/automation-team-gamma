@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npx playwright:*)",
+      "Read(//Users/viet.dnguyen/code/automation-team-gamma/node_modules/@platform/**)",
+      "Read(//Users/viet.dnguyen/code/automation-team-gamma/node_modules/@platform/adapter-playwright/**)",
+      "Bash(rm node_modules/@platform/adapter-playwright)",
+      "Bash(ln -s /Users/viet.dnguyen/code/test-automation-platform/platform-adapters/js/playwright node_modules/@platform/adapter-playwright)",
+      "Bash(ln -s /Users/viet.dnguyen/code/test-automation-platform/platform-adapters/js/playwright node_modules/@ndviet/adapter-playwright)"
+    ]
+  }
+}

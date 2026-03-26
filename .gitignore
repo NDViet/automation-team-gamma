@@ -1,0 +1,25 @@
+# Playwright
+playwright-report/
+test-results/
+blob-report/
+
+# Node
+node_modules/
+
+# TypeScript
+dist/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Mac OS
+.DS_Store
+
+# IntelliJ IDEA
+.idea/
+out/
+
+# VS Code
+.vscode/
